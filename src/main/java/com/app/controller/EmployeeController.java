@@ -19,7 +19,7 @@ public class EmployeeController {
     @RequestMapping("")
     public String showAllEmployees() {
 
-        return "WEB-INF/view/show.jsp";
+        return "show";
     }
     /*@RequestMapping("/addNewEmployee")
     public String addNewEmployee(Model model) {
